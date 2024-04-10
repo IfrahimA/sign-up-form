@@ -63,7 +63,7 @@ input:focus
     background-color: #EDEFF2;
     outline: none;
     border: none;
-    border-bottom: 2px solid rgba(45, 113, 190, 0.603);  
+    border-bottom: 2px solid rgba(45, 113, 190, 0.603); 
 }
 input:hover
 {
