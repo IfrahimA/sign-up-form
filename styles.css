@@ -55,10 +55,20 @@ input
     border-radius: 4px;
     height: 25px;
     padding-left: 7px;
+    border: 0;
+    border-bottom: 2px solid rgba(45, 113, 190, 0.603); 
 }
 input:focus
 {
     background-color: #EDEFF2;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(45, 113, 190, 0.603);  
+}
+input:hover
+{
+    height: 4vh; 
+    transition: 0.5s;   
 }
 .input
 {
@@ -116,7 +126,6 @@ button:-webkit-details-marker {
 {
     margin: 25px 0 5px 0; 
 }
-
 .blue
 {
     font-weight: 700;
